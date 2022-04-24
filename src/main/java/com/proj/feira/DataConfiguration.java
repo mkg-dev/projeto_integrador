@@ -16,7 +16,7 @@ public class DataConfiguration {
 	public DataSource dataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-		dataSource.setUrl("jdbc:mysql://localhost:3306/databasepi");
+		dataSource.setUrl("jdbc:mysql://localhost:3306/feira");
 		dataSource.setUsername("root"); // usuário do SEU banco de dados
 		dataSource.setPassword("mk2021mk"); // senha do SEU banco de dados
 		return dataSource;
